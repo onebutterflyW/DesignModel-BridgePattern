@@ -15,6 +15,8 @@
 		A23FFCF01E2F4C6C003A3B85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A23FFCEE1E2F4C6C003A3B85 /* LaunchScreen.storyboard */; };
 		A23FFCFB1E2F4C6D003A3B85 /* BridgePatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A23FFCFA1E2F4C6D003A3B85 /* BridgePatternTests.m */; };
 		A23FFD061E2F4C6D003A3B85 /* BridgePatternUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A23FFD051E2F4C6D003A3B85 /* BridgePatternUITests.m */; };
+		A23FFD1A1E2F4E76003A3B85 /* Bridge in Resources */ = {isa = PBXBuildFile; fileRef = A23FFD191E2F4E76003A3B85 /* Bridge */; };
+		A27EA4AD1E31A0E900685A59 /* C93C9356-A7E0-4DCA-944E-C3AADBD950C0 2.png in Resources */ = {isa = PBXBuildFile; fileRef = A27EA4AC1E31A0E900685A59 /* C93C9356-A7E0-4DCA-944E-C3AADBD950C0 2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		A23FFD011E2F4C6D003A3B85 /* BridgePatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BridgePatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A23FFD051E2F4C6D003A3B85 /* BridgePatternUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BridgePatternUITests.m; sourceTree = "<group>"; };
 		A23FFD071E2F4C6D003A3B85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A23FFD191E2F4E76003A3B85 /* Bridge */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Bridge; sourceTree = "<group>"; };
+		A27EA4AC1E31A0E900685A59 /* C93C9356-A7E0-4DCA-944E-C3AADBD950C0 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "C93C9356-A7E0-4DCA-944E-C3AADBD950C0 2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 		A23FFCD41E2F4C6C003A3B85 = {
 			isa = PBXGroup;
 			children = (
+				A27EA4AC1E31A0E900685A59 /* C93C9356-A7E0-4DCA-944E-C3AADBD950C0 2.png */,
+				A23FFD191E2F4E76003A3B85 /* Bridge */,
 				A23FFCDF1E2F4C6C003A3B85 /* BridgePattern */,
 				A23FFCF91E2F4C6D003A3B85 /* BridgePatternTests */,
 				A23FFD041E2F4C6D003A3B85 /* BridgePatternUITests */,
@@ -252,6 +258,8 @@
 				A23FFCF01E2F4C6C003A3B85 /* LaunchScreen.storyboard in Resources */,
 				A23FFCED1E2F4C6C003A3B85 /* Assets.xcassets in Resources */,
 				A23FFCEB1E2F4C6C003A3B85 /* Main.storyboard in Resources */,
+				A27EA4AD1E31A0E900685A59 /* C93C9356-A7E0-4DCA-944E-C3AADBD950C0 2.png in Resources */,
+				A23FFD1A1E2F4E76003A3B85 /* Bridge in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +524,7 @@
 				A23FFD0C1E2F4C6D003A3B85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A23FFD0D1E2F4C6D003A3B85 /* Build configuration list for PBXNativeTarget "BridgePatternTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +533,7 @@
 				A23FFD0F1E2F4C6D003A3B85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A23FFD101E2F4C6D003A3B85 /* Build configuration list for PBXNativeTarget "BridgePatternUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +542,7 @@
 				A23FFD121E2F4C6D003A3B85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
